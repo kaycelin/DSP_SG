@@ -6,5 +6,10 @@
 2. Apply Channel filter, evm: 0.12, delay: 57
 ![image](https://user-images.githubusercontent.com/87049112/135781288-391721ad-c0f5-43dd-9b97-e370b2f0896e.png)
 
-3. Generate HB and SRC FIR
-![image](https://user-images.githubusercontent.com/87049112/135798706-2e3dbe36-2961-4b63-b08b-bf529fc5f73c.png)
+3. Generate HB and SRC FIR,
+
+database FIR:
+
+![image](https://user-images.githubusercontent.com/87049112/136647623-587d3d74-84a7-4c42-83c7-2e6901f395e6.png)
+
+generate FIR:
