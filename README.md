@@ -20,3 +20,10 @@ generate FIR(red) comparsion:
 
 5. Export signal to Fixed point
 ![image](https://user-images.githubusercontent.com/87049112/136744601-b7afbc5c-ada7-497f-915d-d2b48213725f.png)
+
+6. Synchronize and check EVM=1.64%
+
+7. Add NCO = [-20e6 20e6] and combine carriers
+![image](https://user-images.githubusercontent.com/87049112/137058117-59fa3db5-681c-4545-bf90-5146a54be0a0.png)
+
+ 
