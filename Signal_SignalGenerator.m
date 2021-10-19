@@ -200,10 +200,16 @@ disp_title = '2C'
 
 %% Export
 PLOT_FFT_dB_g(sigOut_rmd, fsOut, numel(sigOut_rmd), ['sigOut remove delay'], 'df', 'full', 'pwr', [fnum+6]);
-PLOT_FFT_dB_g(sigOut_2C, fsOut, numel(sigOut_2C), ['sigOut 2C'], 'df', 'full', 'pwr', [fnum+9]);
+signal = sigOut_rmd;
+save('waveform_OFDM_20MHz_122p88MHz.mat','signal')
 
-save('waveform_OFDM_20MHz_2C_122p88MHz.mat','sigOut_2C')
-save('waveform_OFDM_20MHz_122p88MHz.mat','sigOut_rmd')
+PLOT_FFT_dB_g(sigOut_2C, fsOut, numel(sigOut_2C), ['sigOut 2C'], 'df', 'full', 'pwr', [fnum+9]);
+signal = sigOut_2C;
+save('waveform_OFDM_20MHz_2C_122p88MHz.mat','signal')
+
+%% PAR comparsion
+[PAR_1C] = CCDF_g(sigOut_rmd, numel(sigOut_rmd), fnum+10, '1C')
+[PAR_2C] = CCDF_g(sigOut_2C, numel(sigOut_2C), fnum+10, '2C')
 
 
 %% function
