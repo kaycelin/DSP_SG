@@ -26,4 +26,6 @@ generate FIR(red) comparsion:
 7. Add NCO = [-20e6 20e6] and combine carriers
 ![image](https://user-images.githubusercontent.com/87049112/137058117-59fa3db5-681c-4545-bf90-5146a54be0a0.png)
 
- 
+8. PAR comparsion
+![image](https://user-images.githubusercontent.com/87049112/137826661-bb43dea7-641b-4d9a-b5d5-5d6dbe438849.png)
+
