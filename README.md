@@ -1,7 +1,10 @@
 # DSP_SG
 
-1. Generate OFDM 20MHz,
+1. Generate OFDM 20MHz, QPSK,
 ![image](https://user-images.githubusercontent.com/87049112/135781213-354d0766-5c56-4638-8c2a-500a2aec7845.png)
+
+- add 64QAM results     
+![image](https://user-images.githubusercontent.com/87049112/138639382-b86986cf-05dc-4656-9627-a1876c6b47da.png)
 
 2. Apply Channel filter and gain, evm: 0.12, delay: 57
 ![image](https://user-images.githubusercontent.com/87049112/136729273-34726f42-5641-4ee9-83ee-7f932017ecf5.png)
